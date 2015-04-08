@@ -1,0 +1,16 @@
+<div class="page-header">
+  <h1>Welcome!</h1>
+</div>
+
+<p>
+  Here we have an input field
+</p>
+
+<%= form_tag("", method: "get", class: "name") do %>
+    <%= label_tag(:first_name, "First Name:") %>
+    <%= text_field_tag(:first_name) %>
+  <%= submit_tag("Enter Name", class: "submit-button") %>
+<% end %>
+<div class="row">
+  <%= link_to "Go to table", table_path, class: "go-to-btn table col-md-1 col-md-offset-4" %>
+</div>

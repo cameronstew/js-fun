@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass'
 gem 'rack-cors', :require => 'rack/cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
